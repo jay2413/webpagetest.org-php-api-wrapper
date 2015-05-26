@@ -1,0 +1,29 @@
+{
+    "name": "maxirus/wpt",
+    "description": "WebPageTest API wrapper",
+    "license": "MIT",
+    "keywords": [
+        "web",
+        "page",
+        "test",
+        "api",
+        "wrapper"
+        ],
+    "authors": [
+        {
+            "name": "Dan Johnson",
+            "email": "dan@maxirus.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPT\\": "src"
+        }
+    }
+}
